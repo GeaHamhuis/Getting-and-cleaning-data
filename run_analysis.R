@@ -49,4 +49,6 @@ for (i in 1:30) {
   new_data<-rbind(new_data, res)
 }
 
+# create text file
+write.table(new_data, "results_assignment.txt", row.name=FALSE)
 
